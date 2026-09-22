@@ -1,0 +1,9 @@
+{
+  "name": "vercel-build-command-repro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal reproduction for a Vercel support case investigating repeated invocations of the configured build command.",
+  "scripts": {
+    "vercel-build": "node scripts/minimal-build-repro.js"
+  }
+}
